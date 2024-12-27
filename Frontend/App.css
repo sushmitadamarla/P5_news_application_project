@@ -1,0 +1,268 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif; /* Clean and modern font */
+  background-color: #f4f6f9; /* Subtle light grey background */
+  color: #333; /* Neutral text color */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Enhanced readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222; /* Darker heading color */
+  margin-bottom: 1rem; /* Uniform spacing */
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #007bff; /* Bright blue link */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Navbar Styling */
+.navbar {
+  background: #212529; /* Deep charcoal background */
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f8f9fa !important;
+}
+
+.nav-link {
+  color: #61dafb;
+  margin: 0 15px;
+  text-transform: uppercase; /* Capitalize links */
+  font-weight: 500; /* Slightly bolder text */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border-color: #61dafb;
+}
+
+.navbar-toggler-icon {
+  background-color: #61dafb;
+}
+
+/* Container Styling */
+.container {
+  margin: 30px auto;
+  max-width: 1100px;
+  padding: 25px;
+  background-color: #ffffff; /* Pure white background */
+  border-radius: 12px; /* Smooth rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+}
+
+/* Card Styling */
+.card {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Balanced shadow */
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-8px); /* Lift effect */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 16px;
+  color: #333333;
+}
+
+.card-content {
+  padding: 16px;
+  color: #555555; /* Softer text color */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff; /* Vibrant blue */
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px; /* Slightly rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+/* Footer Styling */
+footer {
+  background: #212529; /* Same as navbar for consistency */
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+/* Additional Spacing and Responsiveness */
+.section {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+}
+
+/* Dropdown Menu Styling */
+.navbar .dropdown-menu {
+  background-color: #343a40;
+}
+
+.navbar .dropdown-item {
+  color: #f8f9fa !important;
+}
+
+.navbar .dropdown-item:hover {
+  color: #ffc107 !important;
+  background-color: #495057;
+}
+
+/* Additional Button for Forms */
+.form-btn {
+  background-color: #28a745; /* Green color for form actions */
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.form-btn:hover {
+  background-color: #218838;
+}
+
+/* Input Field Styling */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* About Page */
+.about h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.125rem;
+  color: #555;
+}
+
+/* Contact Page */
+.contact-form label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #218838;
+}
+
+/* Categories Page */
+.list-group-item {
+  font-size: 1.125rem;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
