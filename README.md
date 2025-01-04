@@ -107,3 +107,24 @@ DELETE /api/articles/:id - Delete an article by ID
 Add user authentication using JWT.
 Integrate a third-party news API for fetching real-time news.
 Enhance UI/UX with a modern design framework like Material-UI or Tailwind CSS.
+
+
+## Screenshots:
+
+### Login page:
+![Screenshot 2025-01-04 011728](https://github.com/user-attachments/assets/34e0df18-fa93-47d7-bbd5-6e0ae5875e82)
+
+### Home page:
+![Screenshot 2025-01-04 011932](https://github.com/user-attachments/assets/ea966bf0-e571-42f3-8467-bc4260f85c6c)
+
+### ‘Read more’ button takes users to the original news article:
+![Screenshot 2025-01-04 011820](https://github.com/user-attachments/assets/f6bcea04-60ef-421a-9a60-60a10882ec6e)
+
+### Deleting an article:
+![Screenshot 2025-01-04 011830](https://github.com/user-attachments/assets/d77ad1a8-a081-4897-8d43-d8a91050a3c6)
+
+### Adding an article:
+![Screenshot 2025-01-04 011916](https://github.com/user-attachments/assets/9916eca0-1234-4c83-9f30-127b65508244)
+
+### New article is added
+![Screenshot 2025-01-04 011932](https://github.com/user-attachments/assets/484d7540-b7d8-4a36-99e8-239471af08c8)
